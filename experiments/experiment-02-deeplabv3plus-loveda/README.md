@@ -102,6 +102,18 @@ The handover package includes the standalone inference script, model configurati
 
 The LoveDA dataset is not required for ordinary inference on a new compatible satellite image. However, it is required to reproduce the training and validation experiments.
 
+## Model Weights
+
+The trained model checkpoints are hosted on Hugging Face.
+
+**Hugging Face Repository:** [SatQuery AI — DeepLabV3+ on LoveDA](https://huggingface.co/Gajanan0530/satquery-ai-loveda-deeplabv3plus)
+
+| Checkpoint | Description | Download |
+|---|---|---|
+| Best | Best validation checkpoint (Epoch 10) | [Download](https://huggingface.co/Gajanan0530/satquery-ai-loveda-deeplabv3plus/resolve/main/best_deeplabv3plus.pth) |
+| Last | Final training checkpoint (Epoch 10) | [Download](https://huggingface.co/Gajanan0530/satquery-ai-loveda-deeplabv3plus/resolve/main/last_deeplabv3plus.pth) |
+
+The best checkpoint is recommended for inference and demonstration. Both checkpoints are provided for reproducibility.
 ---
 
 **SatQuery AI | DeepLabV3+ Semantic Segmentation Report**
